@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "hackathon"
+version = "0.1.0"
+description = ""
+authors = ["KShivendu <kshivendu1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+requests = "^2.31.0"
+pillow = "^10.1.0"
+tqdm = "^4.66.1"
+imageai = "^3.0.3"
+exifread = "^3.0.0"
+qdrant-client = "^1.6.0"
+sentence-transformers = "^2.2.2"
+streamlit = "^1.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
